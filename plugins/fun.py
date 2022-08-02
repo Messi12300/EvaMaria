@@ -1,5 +1,6 @@
 from pyrogram import Client, filters
 
+
 GOAL_E_MOJI = "⚽"
 TRY_YOUR_LUCK = "🎰"
 THROW_DART = "🎯"
