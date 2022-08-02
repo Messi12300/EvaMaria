@@ -421,14 +421,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Bro Piracy Is Crime 😒')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
-            InlineKeyboardButton('Auto Filter', callback_data='autofilter')
-        ], [
-            InlineKeyboardButton('Connection', callback_data='coct'),
-            InlineKeyboardButton('Extra Mods', callback_data='extra')
-        ], [
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔮 Status', callback_data='stats')
+            InlineKeyboardButton('ᴍ ғɪʟᴛᴇʀ', callback_data='manuelfilter'),
+            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
+            InlineKeyboardButton('ᴀ ғɪʟᴛᴇʀ', callback_data='autofilter')
+            ],[        
+            InlineKeyboardButton('ɪᴍᴅʙ', callback_data='extra'),
+            InlineKeyboardButton('sᴏɴɢ', callback_data='source'),
+            InlineKeyboardButton('sᴛᴀᴛs', callback_data='stats')
+            ],[        
+            InlineKeyboardButton('ᴀᴅᴍɪɴs', callback_data='admin'),
+            InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='covd'),
+            InlineKeyboardButton('ɪɴғᴏ', callback_data='info')
+            ],[
+            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/MalluCinemas_Official'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
