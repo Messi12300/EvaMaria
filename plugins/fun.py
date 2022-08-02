@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-from Script.py import emoji
+from info.py import emoji
 
 @Client.on_message(filters.command(["throw", "dart"]))
 async def throw_dart(bot, update):
