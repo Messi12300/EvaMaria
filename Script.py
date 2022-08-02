@@ -10,8 +10,8 @@ class script(object):
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
-    SOURCE_TXT = """<b>🧐</b>
-"""
+    SOURCE_TXT ="""🎵 Dᴏᴡɴʟᴏᴀᴅ Sᴏɴɢs🎵\n\nʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ sᴏɴɢs ʙʏ ғᴏʟʟᴏᴡɪɴɢ ᴄᴏᴍᴍᴀɴᴅs.\n\n✨𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬✨\n\n/song (Song Name) - To Download songs 🎵\n\n<b>🌀Usage🌀</b>\n- Can Be Used By Everyone\n- Works in bot pm\n\nMᴀᴅᴇ Wɪᴛʜ ❤️ ʙʏ @MC_Group1"""
+ 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
