@@ -11,3 +11,5 @@ youtube_search_python
 youtube_search
 youtube_dl
 #telegram
+googletrans==3.1.0a0 # Google Translater 
+gTTS # Google Translater
