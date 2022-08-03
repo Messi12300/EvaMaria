@@ -27,6 +27,22 @@ By Using This Module you can store files in my database and i will give you a pe
 📚 Command and Usage :
 
 • /batch """
+   
+    TEXTS_TXT = """ 📍 Model: ShareText :
+
+a model to create a link to share text in the telegram
+
+📚 Command and Usage :
+
+• /share [text] - Enter Any Text """
+ 
+    TTS_TXT = """ 🎙️Model: Text To Speech :
+
+a module to convert text to voice with language support
+
+📚 Command and Usage :
+
+• /tts :- Reply To Any Text Message With Language Code To Convert As Audio"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
