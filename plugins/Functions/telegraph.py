@@ -15,7 +15,6 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid, UserNotParticipant, UserBannedInChannel
 from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid
 from telegraph import upload_file
-from database import Database
 
 
 @Bot.on_message(filters.media & filters.command(["telegraph"]))
