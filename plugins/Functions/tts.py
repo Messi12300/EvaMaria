@@ -1,7 +1,7 @@
 from traceback import format_exc
 from pyrogram import Client, filters
 from asyncio import get_running_loop
-from Lucifer.functions import *
+from plugins.Lucifer import *
 
 @Client.on_message(filters.command("tts"))
 async def text_to_speech_en(_, message):
