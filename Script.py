@@ -20,6 +20,13 @@ Made By @MC_Group1 ❤️"""
     COVD_TXT = """<b>Here is the help for the Covid 19 information module.</b>
 ➡️ /corona  <code>Here you can find corona information.</code>
 ➡️ example : /corona"""
+    STORE_TXT = """📄 Model: FileStore :
+
+By Using This Module you can store files in my database and i will give you a permament link to access the saved files
+
+📚 Command and Usage :
+
+• /batch """
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
