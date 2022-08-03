@@ -429,9 +429,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('sᴏɴɢ', callback_data='source'),
             InlineKeyboardButton('sᴛᴀᴛs', callback_data='stats')
             ],[        
-            InlineKeyboardButton('ᴛᴛs', callback_data='extra'),
-            InlineKeyboardButton('sʜᴀʀᴇ ᴛᴇxᴛ', callback_data='source'),
-            InlineKeyboardButton('ᴄᴏᴍɪɴɢ', callback_data='stats')
+            InlineKeyboardButton('ᴛᴛs', callback_data='tts'),
+            InlineKeyboardButton('sʜᴀʀᴇ ᴛᴇxᴛ', callback_data='texts'),
+            InlineKeyboardButton('ғɪʟᴇ sᴛᴏʀᴇ', callback_data='store')
             ],[        
             InlineKeyboardButton('ᴀᴅᴍɪɴs', callback_data='admin'),
             InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='covd'),
@@ -478,6 +478,36 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.MANUELFILTER_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "tts":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='manuelfilter')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.TTS_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "texts":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.TEXTS_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "store":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.STORE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
