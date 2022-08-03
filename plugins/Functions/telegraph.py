@@ -66,4 +66,3 @@ async def telegraph_upload(bot, update):
 
 
  
-Bot.run()
