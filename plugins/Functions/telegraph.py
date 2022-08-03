@@ -17,7 +17,7 @@ from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid
 from telegraph import upload_file
 
 
-@Bot.on_message(filters.media & filters.command(["telegraph"]))
+@Client.on_message(filters.command("telegraph"))
 async def telegraph_upload(bot, update):
     
     if not await db.is_user_exist(update.from_user.id):
