@@ -1,6 +1,7 @@
 import os
 import requests
 import random
+from Script import script
 from requests.utils import requote_uri
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
