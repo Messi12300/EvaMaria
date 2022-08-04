@@ -7,7 +7,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 API = "https://api.sumanjay.cf/covid/?country="
 
-
+country_name = "india"
 
 @Client.on_message(filters.command(['corona']))
 async def corona(client, message):
