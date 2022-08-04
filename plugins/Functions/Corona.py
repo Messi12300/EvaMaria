@@ -1,8 +1,5 @@
 import os
 import requests
-import random
-from Script import script
-from info import DICE
 from requests.utils import requote_uri
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
