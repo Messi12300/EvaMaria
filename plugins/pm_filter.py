@@ -869,8 +869,8 @@ async def manual_filters(client, message, text=False):
                                 reply_markup=InlineKeyboardMarkup(button),
                                 reply_to_message_id=reply_id
                             )
-                             await asyncio.sleep(120)
-                             await p.delete()
+                            await asyncio.sleep(120)
+                            await p.delete()
                     elif btn == "[]":
                         f = await client.send_cached_media(
                             group_id,
