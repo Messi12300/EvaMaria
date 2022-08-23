@@ -20,6 +20,7 @@ Made By @MC_Group1 ❤️"""
     COVD_TXT = """<b>Here is the help for the Covid 19 information module.</b>
 ➡️ /corona  <code>Here you can find corona information.</code>
 ➡️ example : /corona"""
+    STS_TXT = """<b> Use /settings To Change Your Settings for Your Group As Your Wish ⚙ </b>"""
     STORE_TXT = """📄 Model: FileStore :
 
 By Using This Module you can store files in my database and i will give you a permament link to access the saved files
