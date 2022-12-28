@@ -16,4 +16,4 @@ gTTS # Google Translater
 heroku3
 pynewtonmath
 pytz
-aiohttp
+aiohttp==3.8.3
